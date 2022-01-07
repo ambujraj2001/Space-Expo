@@ -1,0 +1,30 @@
+.heading{
+    text-align:center;
+    align-items: center;
+    font-size:50px;
+    font-family: 'Raleway', sans-serif;
+}
+.big{
+    display:flex;
+}
+h1{
+    margin-left:10px;
+}
+.writing{
+    width:80vw;
+    margin-left:20px;
+    font-family: 'Libre Baskerville', serif;
+    line-height:1.4;
+    word-spacing:2px;
+}
+.set{
+    width:20vw;
+    margin-left: 30px;
+    margin-top:25px;
+}
+.fix{
+    width:300px;
+    height:330px;
+    border-radius: 5px;;
+}
+
