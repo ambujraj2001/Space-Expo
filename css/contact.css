@@ -3,6 +3,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  body{
+      background-color: #141e30;
+  }
   button, input {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -61,9 +64,7 @@
     background: white;
   }
   
-  .screen-header-button.close {
-    background-color: #141e30;
-  }
+ 
   
   .screen-header-button.maximize {
     background: #e8e925;
