@@ -5,50 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../assets/planets.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/scroll.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway:wght@800&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href="../assets/astronaut.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/homepage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title>SpaceExpo</title>
+    <title>Space Expo 2k22</title>
 </head>
 
 <body>
 
-    <div class="background">
-        <br>
-        <div class="container">
-            <a href="" class="nav-link">
-                <h3 class="navbar">Home</h3>
-            </a>
-            <a href="" class="nav-link">
-                <h3 class="navbar">About Us</h3>
-            </a>
-            <a href="" class="nav-link">
-                <h3 class="navbar">Our Sponsors</h3>
-            </a>
-            <a href="" class="nav-link">
-                <h3 class="navbar">Speakers</h3>
-            </a>
-            <a href="" class="nav-link">
-                <h3 class="navbar">Schedule</h3>
-            </a>
-            <a href="" class="nav-link">
-                <h3 class="navbar">Register Now</h3>
-            </a>
-            <a href="" class="nav-link">
-                <h3 class="navbar">Contact Us</h3>
-            </a>
-
-        </div>
-
-        <button class="button" style="vertical-align:middle"><span>Let's Start </span></button>
-    </div>
-
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">MUO</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li class="services">
+                    <a href="/">Services</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="/">Dropdown 1 </a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 3</a></li>
+                        <li><a href="/">Dropdown 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">Pricing</a></li>
+                <li><a href="/">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    
 </body>
 
 </html>
