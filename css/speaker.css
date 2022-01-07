@@ -1,5 +1,5 @@
 .container {
-  background-color: #eaf0f2;
+  background: linear-gradient(#141e30, #243b55);
   margin: 0;
 }
 
@@ -7,12 +7,13 @@
   text-align: center;
   align-items: center;
   font-size: 50px;
+  color: white;
   font-family: "Raleway", sans-serif;
 }
 .heading:hover {
   transform: scale(1.5);
   transition: all 0.3s ease-in-out 0.1s;
-  color: cornflowerblue;
+  color: #03e9f4;
 }
 
 .flex-main {
@@ -20,9 +21,10 @@
 }
 
 .flex-left {
+  color: white;
   width: 80vw;
   margin-left: 20px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.4;
   word-spacing: 2px;
 }
@@ -35,10 +37,12 @@
 
 .speaker-name {
   margin-left: 20px;
+  font-family: "Raleway", sans-serif;
+  color: white;
 }
 
 .speaker-name:hover {
-  color: #7f98bb;
+  color: #03e9f4;
 }
 
 .speaker-image {
@@ -75,13 +79,13 @@
   width: 80vw;
   margin-left: 20px;
   font-size: medium;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.4;
   word-spacing: 2px;
 }
 .heading:hover {
   transform: scale(1);
   transition: all 0.3s ease-in-out 0.1s;
-  color: cornflowerblue;
+  color: #03e9f4;
 }
 }
