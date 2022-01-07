@@ -15,7 +15,7 @@ body {
 
 
 h1{
-  color: #000000;
+  color:rgb(202, 202, 202);
   font-size: 100px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
@@ -36,7 +36,7 @@ h1:hover span:nth-child(2){
 }
 h1:hover span{
   color: #fff;
-  text-shadow: 0 0 10px #fff,
-               0 0 20px #fff, 
-               0 0 40px #fff;
+  text-shadow: 0 0 10px rgb(139, 135, 135),
+               0 0 20px rgb(206, 203, 203), 
+               0 0 40px rgb(230, 226, 226);
 }
