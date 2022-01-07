@@ -4,9 +4,7 @@
  padding: 0;
  box-sizing: border-box;
 }
-body {
- font-family: cursive;
-}
+
 a {
  text-decoration: none;
 }
@@ -19,25 +17,28 @@ li {
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- background-color: teal;
+ background-color: black;
  color: #fff;
+ font-family: 'Raleway', sans-serif;
 }
 .nav-links a {
  color: #fff;
 }
 /* LOGO */
 .logo {
- font-size: 32px;
+ font-size: 45px;
+ font-weight: 350;
 }
 /* NAVBAR MENU */
 .menu {
  display: flex;
  gap: 1em;
- font-size: 18px;
+ font-size: 22px;
 }
 .menu li:hover {
- background-color: #4c9e9e;
+ background-color: white;
  border-radius: 5px;
+ color:black;
  transition: 0.3s ease;
 }
 .menu li {
@@ -48,11 +49,12 @@ li {
  position: relative; 
 }
 .dropdown {
- background-color: rgb(1, 139, 139);
+ background-color: rgb(0, 0, 0);
  padding: 1em 0;
  position: absolute; /*WITH RESPECT TO PARENT*/
  display: none;
  border-radius: 8px;
+ color: #fff;
  top: 35px;
 }
 .dropdown li + li {
@@ -64,11 +66,22 @@ li {
  text-align: center;
 }
 .dropdown li:hover {
- background-color: #4c9e9e;
+ background-color: white;
+ color: black;
 }
 .services:hover .dropdown {
  display: block;
+ color: black;
+ 
 }
+.services:hover
+{
+    color: black;
+}
+.details:hover{
+    color: black;
+}
+
 /*RESPONSIVE NAVBAR MENU STARTS*/
 /* CHECKBOX HACK */
 input[type=checkbox]{
@@ -85,16 +98,18 @@ input[type=checkbox]{
 .menu { 
  display:none;
  position: absolute;
- background-color:teal;
+ background-color: rgb(0, 0, 0);
  right: 0;
  left: 0;
  text-align: center;
  padding: 16px 0;
+ color: #fff;
 }
 .menu li:hover {
  display: inline-block;
- background-color:#4c9e9e;
+background-color: rgb(0, 0, 0);
  transition: 0.3s ease;
+ color: #fff;
 }
 .menu li + li {
  margin-top: 12px;
@@ -111,7 +126,8 @@ input[type=checkbox]:checked ~ .menu{
  transform: translateX(35%);
 }
 .dropdown li:hover {
- background-color: #4c9e9e;
+background-color: rgb(0, 0, 0);
+color: #fff;
 }
 }
 
