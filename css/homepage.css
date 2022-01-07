@@ -13,7 +13,7 @@ body {
 }
 .container {
   position: sticky;
-  margin-top: -15px;
+  margin-top: -20px;
   color: white;
   display: flex;
   flex-direction: row;
