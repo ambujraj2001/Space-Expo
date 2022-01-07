@@ -288,3 +288,89 @@ input[type=checkbox]:checked ~ .menu{
 }
 }
 
+
+
+
+
+/*
+.background {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/1641551225604.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  position: sticky;
+  margin-top: -20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+.nav-link:hover {
+  text-shadow: 3px 3px 5px #11aac5;
+}
+
+.button {
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #ffffff;
+  border: none;
+  color: #1a1717;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.second-div {
+  width: 98vw;
+  height: 70vh;
+}
+*/

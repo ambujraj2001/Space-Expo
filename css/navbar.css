@@ -129,5 +129,9 @@ input[type=checkbox]:checked ~ .menu{
 background-color: rgb(0, 0, 0);
 color: #fff;
 }
+.logo {
+ font-size: 33px;
+ font-weight: 350;
+}
 }
 
