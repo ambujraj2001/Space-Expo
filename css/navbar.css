@@ -12,15 +12,7 @@
 	margin: 0 auto;
 }
 
-/* Logo */
-.para{text-align: left;
-    color: white;
-    margin-top: 7px;
-    font-size: larger;
-    font-family: 'Balsamiq Sans', cursive;
-	float: left;
-	margin-right: 900px;
-}
+
 
 .header-basic .header-limiter h1 {
 	float: left;
@@ -44,9 +36,12 @@
 .header-basic .header-limiter nav{
 	font:24px,'Raleway', sans-serif;;
 	line-height: 40px;
-	float: right;
+	float: center;
+    
 }
-
+.margin{
+    margin-left:40px;
+}
 .header-basic .header-limiter nav a{
 	display: inline-block;
 	padding: 0 5px;
