@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-poster {
+    height: 99vh;
+    width: 99vw;
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .q{
+      text-align: center;
+      margin-left:auto;
+      margin-right:auto;
+      align-items: center;
+      width:70vw;
+  }
+  .apple{
+      font-size: 30px;
+      color:#167c9f;
+      font-family: Helvetica,Arial;
+  }
+  .dt{
+      font-size:15px;
+      color:black;
+      font-family: Helvetica,Arial;
+  }
+  .ok{
+      color:white;
+      width:220px;
+      height:50px;
+      font-size:20px;
+      background-color: #167c9f;
+  }
+  .main{
+   display:flex;
+   flex-direction: column;
+   width:85vw;
+   align-items: center;
+   justify-content: center;
+   margin-left:auto;
+      margin-right: auto;
+  }
+  .sub{
+      display:flex;
+      height:50%;
+      width:100%;
+      gap:10px;
+      justify-content: center;
+  }
+  .subpart{
+      width:65%;
+      text-align: left;
+      font-size:17px;
+      font-family: Helvetica,Arial; 
+  }
+  .subpart1{
+      width:20%;
+      margin-left:100px;
+  }
+  .r{
+      width:250px;
+      height:250px;
+  }
