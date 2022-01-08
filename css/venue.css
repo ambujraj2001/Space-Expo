@@ -56,4 +56,49 @@ body{
     gap: 10px;
 }
 
+.k{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    footer {
+      display: none;
+    }
+    .main{
+        flex-direction: column;
+        width:100vw;
+    }
+    .in{
+        width:100vw;
+        height:50vh;
+    }
+    .in1{
+        width:100vw;
+    }
+    .fill{
+        display: none;
+        
+    }
+    
+    .k{
+        display:flex;
+        height:50vh;
+        width:100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .p{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .gt{
+        font-size: 50px;
+    }
+    
+    
+    
 
+
+  }
+  
