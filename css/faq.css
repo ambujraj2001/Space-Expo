@@ -4,6 +4,18 @@ body {
   padding: 0;
 }
 
+.table-heading {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #03e9f4;
+  transition: transform 0.2s;
+}
+.table-heading:hover {
+  color: whitesmoke;
+  transform: scale(1.5);
+}
+
 
 /* Accordion styles */
 
