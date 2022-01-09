@@ -80,6 +80,15 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.view
+{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+  border: none;
+}
 @media only screen and (max-width: 768px) {
   .video
 {
