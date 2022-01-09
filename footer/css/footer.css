@@ -44,11 +44,13 @@ ul#footerMediaLinks li {
   cursor: pointer;
   /* transition: border-bottom 3s ease-in; */
 }
+/*
 ul#footerUsefulLink li:hover .usefulLinksIcons,
 ul#footerUsefulLink li:hover a {
   color: #00ced1;
-  /* border-bottom: 1px solid red; */
-}
+  /* border-bottom: 1px solid red; 
+
+
 ul#footerMediaLinks li:hover span.fb,
 ul#footerMediaLinks li:hover a.fb {
   color: #3b5998;
@@ -65,6 +67,7 @@ ul#footerMediaLinks li:hover span.git,
 ul#footerMediaLinks li:hover a.git {
   color: #f1502f;
 }
+*/
 
 div#footerLogo img {
   width: 50%;
@@ -125,6 +128,7 @@ div.footerCopy {
   ul#footerMediaLinks li a {
     display: none;
   }
+  /*
   ul#footerUsefulLink li:hover,
   ul#footerUsefulLink li:hover .usefulLinksIcons,
   ul#footerUsefulLink li:hover a {
@@ -154,5 +158,20 @@ div.footerCopy {
   ul#footerMediaLinks li:hover a.git {
     background-color: #f1502f;
     color: white;
-  }
+  }*/
+}
+.youtube,.fb,.twit,.insta{
+  color:white;
+}
+.fb:hover{
+  color:#1da1f2
+}
+.twit:hover{
+  color:#1da1f2
+}
+.insta:hover{
+  color:#1da1f2
+}
+.youtube:hover{
+  color:#1da1f2
 }
