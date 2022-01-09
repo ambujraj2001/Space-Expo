@@ -105,11 +105,13 @@ footer a:hover {
 .j {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 .j5 {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 135px;
+  font-weight: lighter;
 }
 @media (max-width: 1100px) {
   footer .content .middle {
