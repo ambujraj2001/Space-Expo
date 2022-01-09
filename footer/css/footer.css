@@ -4,14 +4,12 @@ body {
   padding: 0;
 }
 footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+ 
   min-height: 300px;
   max-height: auto;
   background-color: rgba(0, 0, 0, 0.9);
-  margin-top: 10px;
+  margin-top: 20px;
+  bottom: 0;
   clear: both;
 }
 footer .footer-wrap {
@@ -159,52 +157,4 @@ div.footerCopy {
   .youtube:hover{
     color:#1da1f2
   }
-  /*
-  ul#footerUsefulLink li:hover,
-  ul#footerUsefulLink li:hover .usefulLinksIcons,
-  ul#footerUsefulLink li:hover a {
-    color: white;
-    background-color: #00ced1;
-  }
-  ul#footerMediaLinks li.media1:hover,
-  ul#footerMediaLinks li:hover span.fb,
-  ul#footerMediaLinks li:hover a.fb {
-    background-color: #3b5998;
-    color: white;
-  }
-  ul#footerMediaLinks li.media2:hover,
-  ul#footerMediaLinks li:hover span.twit,
-  ul#footerMediaLinks li:hover a.twit {
-    background-color: #1da1f2;
-    color: white;
-  }
-  ul#footerMediaLinks li.media3:hover,
-  ul#footerMediaLinks li:hover span.insta,
-  ul#footerMediaLinks li:hover a.insta {
-    background-color: #ffc838;
-    color: white;
-  }
-  ul#footerMediaLinks li.media4:hover,
-  ul#footerMediaLinks li:hover span.git,
-  ul#footerMediaLinks li:hover a.git {
-    background-color: #f1502f;
-    color: white;
-  }*/
 }
-/*
-.youtube,.fb,.twit,.insta{
-  color:white;
-}
-.fb:hover{
-  color:#1da1f2
-}
-.twit:hover{
-  color:#1da1f2
-}
-.insta:hover{
-  color:#1da1f2
-}
-.youtube:hover{
-  color:#1da1f2
-}
-*/

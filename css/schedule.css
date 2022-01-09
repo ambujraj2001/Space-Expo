@@ -45,3 +45,18 @@ td {
   color: #5383d3;
   transform: scale(1.5);
 }
+
+@media only screen and (max-width: 768px) {
+ .table-begin
+ {margin: 5vw;
+
+ }
+table,
+th,
+td {
+  border: 1px solid white;
+  font-size: 4vw;
+  padding: 2px;
+  margin: 5vw;
+}
+}
