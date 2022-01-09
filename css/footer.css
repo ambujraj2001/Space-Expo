@@ -106,6 +106,9 @@ footer a:hover{
   font-size:13px;
   font-family:Arial, Helvetica, sans-serif
 }
+.k{
+  margin-left:160px;
+}
 @media (max-width:1100px) {
   footer .content .middle{
     padding-left: 50px;
