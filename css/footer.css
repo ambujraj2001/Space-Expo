@@ -102,6 +102,10 @@ footer a{
 footer a:hover{
   color: #eb2f06;
 }
+.j{
+  font-size:13px;
+  font-family:Arial, Helvetica, sans-serif
+}
 @media (max-width:1100px) {
   footer .content .middle{
     padding-left: 50px;
