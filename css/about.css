@@ -1,16 +1,23 @@
 body {
     margin: 0;
     padding: 0;
+    /*background-color: black;*/
+    background: linear-gradient(#141e30, #243b55);
   }
   
   .main-poster {
-    height: 99vh;
+    height: 50vh;
     width: 99vw;
-    background-image: url("https://glazeforce.com/wp-content/uploads/2020/11/abtusbanner2.png");
+    background-color: aliceblue;
+   /* background-image: url("https://glazeforce.com/wp-content/uploads/2020/11/abtusbanner2.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;*/
+  }
+  .myimage{
+      width: 100%;
+      height: 100%;
   }
   .q{
       text-align: center;
@@ -18,6 +25,7 @@ body {
       margin-right:auto;
       align-items: center;
       width:70vw;
+      color: white;
   }
   .apple{
       font-size: 30px;
@@ -26,7 +34,7 @@ body {
   }
   .dt{
       font-size:15px;
-      color:black;
+      color:white;
       font-family: Helvetica,Arial;
   }
   .ok{
@@ -46,6 +54,7 @@ body {
       margin-right: auto;
   }
   .sub{
+      color: white;
       display:flex;
       height:50%;
       width:100%;
